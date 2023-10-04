@@ -1,5 +1,14 @@
-button1 {color:rgb(119, 118, 98)}
-button2 {color:rgb(119, 118, 98)}
-button3 {color:rgb(119, 118, 98)}
+button1 {
+    color:rgb(119, 118, 98);
+    text-align: left;
+}
+button2 {
+    color:rgb(119, 118, 98);
+    text-align: center;
+}
+button3 {
+    color:rgb(119, 118, 98);
+    text-align: right;
+}
 
 
