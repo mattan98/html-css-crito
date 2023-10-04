@@ -22,12 +22,53 @@ button3 {
     border: hidden;
     background-color: antiquewhite;
 }
+button4 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: hidden;
+    background-color: antiquewhite;
+}
+button5 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: hidden;
+    background-color: antiquewhite;
+}
+button6 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: hidden;
+    background-color: antiquewhite;
+}
+button7 {
+    display: inline;
+    width: 10px;
+    height: 100px;
+    padding: 5px;
+    border: hidden;
+    background-color: antiquewhite;
+}
 buttonlgn{
     background-color:rgb(238, 192, 107)
 }
 
+h1{
+    
+    width: 300px;
+}
+p{
+    width: 300px;
+}
+
 footer {
     background-color: antiquewhite;
-
+    height: 600px;
+    
 }
 
