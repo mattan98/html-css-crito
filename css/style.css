@@ -1,14 +1,33 @@
 button1 {
-    color:rgb(119, 118, 98);
-    text-align: left;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: hidden;
+    background-color: antiquewhite;
 }
 button2 {
-    color:rgb(119, 118, 98);
-    text-align: center;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: hidden;
+    background-color: antiquewhite;
 }
 button3 {
-    color:rgb(119, 118, 98);
-    text-align: right;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: hidden;
+    background-color: antiquewhite;
+}
+buttonlgn{
+    background-color:rgb(238, 192, 107)
 }
 
+footer {
+    background-color: antiquewhite;
+
+}
 
