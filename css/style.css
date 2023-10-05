@@ -1,74 +1,72 @@
-button1 {
-    display: inline;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: hidden;
-    background-color: antiquewhite;
-}
-button2 {
-    display: inline;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: hidden;
-    background-color: antiquewhite;
-}
-button3 {
-    display: inline;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: hidden;
-    background-color: antiquewhite;
-}
-button4 {
-    display: inline;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: hidden;
-    background-color: antiquewhite;
-}
-button5 {
-    display: inline;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: hidden;
-    background-color: antiquewhite;
-}
-button6 {
-    display: inline;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: hidden;
-    background-color: antiquewhite;
-}
-button7 {
-    display: inline;
-    width: 10px;
-    height: 100px;
-    padding: 5px;
-    border: hidden;
-    background-color: antiquewhite;
-}
-buttonlgn{
-    background-color:rgb(238, 192, 107)
-}
+header {
 
-h1{
+    background-color: rgb(240, 239, 234);
     
-    width: 300px;
-}
-p{
-    width: 300px;
-}
-
-footer {
-    background-color: antiquewhite;
     height: 600px;
     
-}
+    button1 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: hidden;
+        background-color: rgb(240, 239, 234);
+    }
+    button2 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: hidden;
+        background-color: rgb(240, 239, 234);
+    }
+    button3 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: hidden;
+        background-color: rgb(240, 239, 234);
+    }
+    button4 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: hidden;
+        background-color: rgb(240, 239, 234);
+    }
+    button5 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: hidden;
+        background-color: rgb(240, 239, 234);
+    }
+    button6 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: hidden;
+        background-color: rgb(240, 239, 234);
+    }
+    button7 {
+        display: inline-block;
 
+        background-color: rgb(240, 239, 234);
+    }
+    buttonlgn{
+
+        background-color:rgb(238, 192, 107);
+
+    }
+    h1{
+        
+        width: 300px;
+    }
+    p{
+        width: 300px;
+    }
+}  
