@@ -263,3 +263,28 @@ header .container .menu .main-menu nav a:hover {
   align-items: center;
   padding-top: 50px;
 }
+
+.showcase-4 {
+  background-color: #DAD9D3;
+}
+.showcase-4 .container p {
+  color: rgb(255, 101, 40);
+  font-size: small;
+}
+.showcase-4 .container .shortcuts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+}
+.showcase-4 .container .shortcuts .box {
+  background-color: white;
+}
+.showcase-4 .container .shortcuts .box p {
+  color: #191919;
+}
+.showcase-4 .container .shortcuts .yellow-box {
+  background-color: #F9D783;
+}
+.showcase-4 .container .browse {
+  display: flex;
+}

@@ -401,3 +401,57 @@ header{
         }
     }
 }
+
+.showcase-4{
+
+    background-color: #DAD9D3;
+
+    .container{
+
+       
+
+        p{
+            color: rgb(255, 101, 40);
+            font-size: small;
+
+        }
+
+        h1{
+
+        }
+        .shortcuts{
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: space-evenly;
+            
+            .box{
+
+                background-color: white;
+                
+                p{
+                    color: #191919;
+                   
+                }
+
+                button{
+
+                   
+                }
+                
+            }
+
+            .yellow-box{
+
+                background-color: #F9D783;
+
+            }
+            
+        }
+        .browse{
+            display: flex;
+           
+
+        }
+    }
+}
