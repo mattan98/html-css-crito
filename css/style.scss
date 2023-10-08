@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap');
 
 html, body{
     color: #191919;
@@ -13,7 +14,7 @@ html, body{
     border: 1px solid #F9D783;
     color: #191919;
     text-decoration: none;
-    padding: 8px 25px;
+    padding: 8px 20px;
     font-weight: 500;
     border-radius: 25px;
 
@@ -24,6 +25,24 @@ html, body{
     }
 }
 
+.btn-transparent{
+
+    background-color: transparent;
+    border: 1px solid #191919;
+    color: #191919;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: 500;
+    border-radius: 25px;
+
+    &:hover{
+
+        background-color: #d3d2cf;
+        border-color: #191919;
+        color: #191919;
+        
+    }
+}
 header{
 
     background-color: #F0EFE9;
@@ -127,4 +146,112 @@ header{
 
 
 
+}
+
+.showcase{
+
+    background-color: #F0EFE9;
+
+    .container{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .content{
+
+            h1{
+
+                font-family:'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 86px;
+
+            }
+
+            p{
+
+                font-size: 20px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+
+            }
+
+            a{
+
+                margin-right: 15px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+
+            }
+        }
+    }
+
+    img{
+
+        margin-right: - 50px;
+
+    }
+}
+
+
+.logoads{
+
+    .container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 40px;
+
+        
+    }
+}
+
+.showcase-2{
+
+    .container{
+
+        display: flex;
+
+
+        .text{
+
+            
+
+            p{
+
+                color: rgb(255, 51, 0);
+                font-weight: 500;
+
+            }
+
+            h1{
+                
+                font-family:'DM Sans', sans-serif;
+                font-weight: 600;
+                font-size: 45px;
+                
+
+            }
+
+            
+        }
+        .choices{
+
+           
+
+            a{
+
+            }
+
+            h4{
+
+            }
+
+            p{
+
+            }
+
+        }
+    }
 }
