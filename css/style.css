@@ -26,7 +26,7 @@ html, body {
   border: 1px solid #191919;
   color: #191919;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 8px 20px;
   font-weight: 500;
   border-radius: 25px;
 }
@@ -141,7 +141,13 @@ header .container .menu .main-menu nav a:hover {
 }
 
 .showcase-2 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #DAD9D3;
+  padding: 60px;
+}
+.showcase-2 .container .text {
+  grid-template-columns: 1fr 1fr;
 }
 .showcase-2 .container .text p {
   color: rgb(255, 51, 0);
@@ -151,4 +157,39 @@ header .container .menu .main-menu nav a:hover {
   font-family: "DM Sans", sans-serif;
   font-weight: 600;
   font-size: 45px;
+  padding-right: 100px;
+}
+.showcase-2 .container .text .learn {
+  padding: 8px 152px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.showcase-2 .container .choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.showcase-2 .container .choices .business {
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.showcase-2 .container .choices .financial {
+  grid-column: 1;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.showcase-2 .container .choices .startup {
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.showcase-2 .container .choices .risk {
+  grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.showcase-2 .container .choices i {
+  font-size: 1.8em;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
