@@ -150,7 +150,7 @@ header .container .menu .main-menu nav a:hover {
   grid-template-columns: 1fr 1fr;
 }
 .showcase-2 .container .text p {
-  color: rgb(255, 51, 0);
+  color: rgb(255, 101, 40);
   font-weight: 500;
 }
 .showcase-2 .container .text h1 {
@@ -203,4 +203,60 @@ header .container .menu .main-menu nav a:hover {
   padding-top: 10px;
   font-weight: 300;
   color: #666666;
+}
+
+.showcase-3 .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px;
+}
+.showcase-3 .container img {
+  padding-right: 100px;
+}
+.showcase-3 .container .text {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.showcase-3 .container .text h5 {
+  color: rgb(255, 101, 40);
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.showcase-3 .container .text h1 {
+  font-weight: 600;
+  color: #2e2e2e;
+  padding-bottom: 20px;
+}
+.showcase-3 .container .text p {
+  font-size: 16px;
+  color: #8a8a8a;
+  padding-bottom: 20px;
+}
+.showcase-3 .container .text .btn-icon {
+  border: none;
+  background-color: transparent;
+}
+.showcase-3 .container .text .btn-icon:hover {
+  border: 1px solid #191919;
+  background-color: #d3d2cf;
+  color: #191919;
+  border-radius: 25px;
+}
+.showcase-3 .container .text .btn-icon:hover i {
+  border: none;
+}
+.showcase-3 .container .text i {
+  display: inline-flex;
+  margin-right: 5px;
+  border: 1px solid #191919;
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.showcase-3 .container .text .button-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
 }
