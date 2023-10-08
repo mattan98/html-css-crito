@@ -214,7 +214,8 @@ header{
         display: grid;
         grid-template-columns: 1fr 1fr;
         border: 1px solid #DAD9D3;
-        padding: 60px;
+        padding: 100px;
+       
 
 
         .text{
@@ -253,6 +254,9 @@ header{
 
             display: grid;
             grid-template-columns: 1fr 1fr;
+            color: #464343;
+            
+            
 
 
            .business{
@@ -289,8 +293,21 @@ header{
 
            i{
             font-size: 1.8em;
-            margin-top: 30px;
+            margin-top: 35px;
             margin-bottom: 30px;
+           }
+
+           h5{
+            font-weight: 600;
+           }
+
+           p{
+
+            font-size: 15px;
+            padding-right: 20px;
+            padding-top: 10px;
+            font-weight: 300;
+            color:#666666
            }
 
 
