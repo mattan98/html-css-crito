@@ -325,21 +325,23 @@ header{
 
         img{
 
-            padding-right: 100px;
+            
+            margin-left: -100px;
+            margin-right: 170px;
 
         }
 
         .text{
 
             grid-template-columns: 1fr 1fr 1fr;
-            
+            width: 500px;
             
 
             h5{
 
                 color: rgb(255, 101, 40);
                 font-weight: 500;
-                padding-bottom: 20px;
+                padding-bottom: 35px;
 
             }
 
@@ -347,7 +349,7 @@ header{
 
                 font-weight: 600;
                 color: #2e2e2e;
-                padding-bottom: 20px;
+                padding-bottom: 45px;
                 
 
             }
@@ -363,6 +365,9 @@ header{
 
                 border: none;
                 background-color: transparent;
+                margin-left: 50px;
+                padding-right: 10px;
+                
 
                 &:hover{
                     border: 1px solid #191919;
@@ -389,9 +394,8 @@ header{
             }
             .button-bottom{
                 display: flex;
-                justify-content: space-between;
                 align-items: center;
-                margin-right: 50px;
+                padding-top: 50px;
             }
 
         }
